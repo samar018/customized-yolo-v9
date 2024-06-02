@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/MyDrive/yolov9-main/Datasetofcar/train/images
+val: /content/drive/MyDrive/yolov9-main/Datasetofcar/valid/images
+test: /content/drive/MyDrive/yolov9-main/Datasetofcar/test/images
+
+nc: 2
+names: ['0', '1']
+
+roboflow:
+  workspace: roboflow-100
+  project: furniture-ngpea
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-100/furniture-ngpea/dataset/2
